@@ -1,0 +1,10 @@
+injected.js:39 jQuery(//code.jquery.com/jquery-3.5.0.min.js) loaded.
+$('h1').text();
+'Selecting multiple elements'
+$('h2').each((index, element) => {
+    console.log($(element).text());
+});
+VM730:2 I'm a h2 element
+VM730:2 I'm also a h2 element
+VM730:2 I'm a h2 element too!
+S.fn.init(3) [h2, h2, h2, prevObject: S.fn.init(1)]
