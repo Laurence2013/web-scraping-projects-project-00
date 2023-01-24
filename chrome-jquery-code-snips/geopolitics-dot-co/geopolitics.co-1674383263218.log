@@ -1,0 +1,15 @@
+const menu = $('.nav-menu > li:nth-child(1) > ul > li').map((index, elem) => {
+    const subMenuTitles = $(elem).find('a').text();
+    const subMenuLinks = $(elem).find('a').attr('href');
+
+    return { id: index, subMenuTitles, subMenuLinks };
+});
+undefined
+menu[0];
+{id: 0, subMenuTitles: 'Ben Fulford Updates', subMenuLinks: 'https://geopolitics.co/vital-issues/ben-fulford/'}
+menu[1];
+{id: 1, subMenuTitles: 'White Hats Report', subMenuLinks: 'https://geopolitics.co/vital-issues/white-hat-reports/'}
+menu[2];
+{id: 2, subMenuTitles: 'Nazism & Zionism', subMenuLinks: 'https://geopolitics.co/category/nazism-zionism/'}
+menu
+S.fn.init(7) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, prevObject: S.fn.init(7)]0: {id: 0, subMenuTitles: 'Ben Fulford Updates', subMenuLinks: 'https://geopolitics.co/vital-issues/ben-fulford/'}1: {id: 1, subMenuTitles: 'White Hats Report', subMenuLinks: 'https://geopolitics.co/vital-issues/white-hat-reports/'}2: {id: 2, subMenuTitles: 'Nazism & Zionism', subMenuLinks: 'https://geopolitics.co/category/nazism-zionism/'}3: {id: 3, subMenuTitles: 'New World DisorderThe Situation is So Intense, it Involves the Entire US Government | FBI Insider', subMenuLinks: 'https://geopolitics.co/category/new-world-disorder/'}4: {id: 4, subMenuTitles: 'South China Sea', subMenuLinks: 'https://geopolitics.co/category/south-china-sea/'}5: {id: 5, subMenuTitles: 'Syria Crisis', subMenuLinks: 'https://geopolitics.co/category/syria-crisis/'}6: {id: 6, subMenuTitles: 'Turkey Crisis', subMenuLinks: 'https://geopolitics.co/category/turkey-crisis/'}length: 7prevObject: S.fn.init(7) [li#menu-item-32854.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-32854, li#menu-item-59025.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-59025, li#menu-item-32557.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-32557, li#menu-item-56826.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-has-childr…, li#menu-item-56827.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-56827, li#menu-item-32560.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-32560, li#menu-item-32561.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-32561, prevObject: S.fn.init(1)][[Prototype]]: Object(0)

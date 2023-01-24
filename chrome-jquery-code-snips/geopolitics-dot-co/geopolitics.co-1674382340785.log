@@ -1,0 +1,2 @@
+$('.nav-menu > li:nth-child(1) > a').text();
+'Geopolitics'

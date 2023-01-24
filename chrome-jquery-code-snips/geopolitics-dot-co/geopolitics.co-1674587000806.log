@@ -1,0 +1,20 @@
+$('.site-main > #secondary > .navigation > .menu-left-menu-container > .menu > li > a').each((index, elem) => {
+    console.log($(elem).text());
+});
+VM20216:2 Lost Land of Maharlika
+VM20216:2 Learn the Tricks of the Trade & Set Yourself Free
+VM20216:2 Khazarian Mafia History
+VM20216:2 Technocracy: An Artificial Intelligence Driven Dictatorship
+VM20216:2 The Foundation for The New World Economic Order
+VM20216:2 Enjoy Healthcare Freedom Now!
+S.fn.init(6) [a, a, a, a, a, a, prevObject: S.fn.init(1)]
+$('.site-main > #secondary > .navigation > .menu-left-menu-container > .menu > li > a').each((index, elem) => {
+    console.log($(elem).attr('href'));
+});
+VM20222:2 https://geopolitics.co/2014/03/05/lost-kingdom-of-maharlika/
+VM20222:2 https://geopolitics.co/2015/01/01/learn-the-tricks-of-the-trade-and-set-yourself-free/
+VM20222:2 https://geopolitics.co/2015/03/11/hidden-history-of-the-incredibly-evil-khazarian-mafia/
+VM20222:2 https://geopolitics.co/2015/04/06/technocracy-a-scientific-dictatorship/
+VM20222:2 https://geopolitics.co/2015/04/25/the-foundation-stone-has-been-laid-for-a-new-world-economic-order/
+VM20222:2 https://virutron.com/
+S.fn.init(6) [a, a, a, a, a, a, prevObject: S.fn.init(1)]

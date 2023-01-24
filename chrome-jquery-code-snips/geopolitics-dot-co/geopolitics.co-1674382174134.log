@@ -1,0 +1,2 @@
+$('.site-title > a').text()
+'Covert Geopolitics'
